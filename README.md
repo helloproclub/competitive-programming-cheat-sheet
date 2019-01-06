@@ -412,6 +412,8 @@ Usage
 
 ```c++
 void sort (RandomAccessIterator first, RandomAccessIterator last, Compare comp);
+	As for Compare comp, it takes 'smaller than' ('<') as the parameter for comparison. For sorting in descending order, we take
+	void sort(RandomAccessIterator first,RandomAccessIterator last,std::greater<int>());
 void stable_sort ( RandomAccessIterator first, RandomAccessIterator last, Compare comp );
 ```
 

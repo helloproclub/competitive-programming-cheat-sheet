@@ -412,8 +412,8 @@ Usage
 
 ```c++
 void sort (RandomAccessIterator first, RandomAccessIterator last, Compare comp);
-	As for Compare comp, it takes 'smaller than' ('<') as the parameter for comparison. For sorting in descending order, we take
-	void sort(RandomAccessIterator first,RandomAccessIterator last,std::greater<int>());
+	//As for Compare comp, it takes 'smaller than' ('<') as the parameter for comparison. For sorting in descending order, we take
+void sort(RandomAccessIterator first,RandomAccessIterator last,std::greater<int>());
 void stable_sort ( RandomAccessIterator first, RandomAccessIterator last, Compare comp );
 ```
 
@@ -2228,7 +2228,8 @@ int suffix_array[HH];
 int suffix_array_temp[HH];
 int counter[HH];
 
-void counting_sort(int k) {
+void counting_
+(int k) {
 	memset(counter, 0, sizeof(counter));
 
 	int len = s.length();

@@ -294,7 +294,7 @@ Output
 
 ```c++
 char arrstr[] = "this is a string";
-string target = string(arr);
+string target = string(arrstr);
 ```
 
 ### 1.3 STL Algorithm
